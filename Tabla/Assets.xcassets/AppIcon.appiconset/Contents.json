@@ -26,6 +26,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "png-transparent-computer-icons-button-media-player-video-icon-game-rectangle-movies.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
@@ -69,6 +70,11 @@
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
     },
     {
       "idiom" : "ipad",

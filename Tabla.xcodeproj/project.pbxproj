@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		59E6B34628805AC8008E0426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B34528805AC8008E0426 /* AppDelegate.swift */; };
 		59E6B34828805AC8008E0426 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B34728805AC8008E0426 /* SceneDelegate.swift */; };
-		59E6B34A28805AC8008E0426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B34928805AC8008E0426 /* ViewController.swift */; };
 		59E6B34D28805AC8008E0426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E6B34B28805AC8008E0426 /* Main.storyboard */; };
 		59E6B34F28805AC8008E0426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E6B34E28805AC8008E0426 /* Assets.xcassets */; };
 		59E6B35228805AC8008E0426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E6B35028805AC8008E0426 /* LaunchScreen.storyboard */; };
+		59E6B35D28805C30008E0426 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B35C28805C30008E0426 /* Carro.swift */; };
+		59E6B35F28805DEA008E0426 /* TablaCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B35E28805DEA008E0426 /* TablaCarroController.swift */; };
+		59E6B361288062F6008E0426 /* CarroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B360288062F6008E0426 /* CarroCell.swift */; };
+		59E6B36528807A4D008E0426 /* TablaMusicaControlletTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B36428807A4D008E0426 /* TablaMusicaControlletTableViewController.swift */; };
+		59E6B36728807AFF008E0426 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B36628807AFF008E0426 /* Cancion.swift */; };
+		59E6B36928807ECB008E0426 /* CancionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B36828807ECB008E0426 /* CancionCell.swift */; };
+		59E6B36F28808A8C008E0426 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E6B36E28808A8C008E0426 /* Main2.storyboard */; };
+		59E6B3722880ADF0008E0426 /* TableDetalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B3712880ADF0008E0426 /* TableDetalleController.swift */; };
+		59E6B3742880AF37008E0426 /* CeldaDetalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B3732880AF37008E0426 /* CeldaDetalleController.swift */; };
+		59E6B3762880AF7C008E0426 /* DetalleCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6B3752880AF7C008E0426 /* DetalleCarroController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59E6B34228805AC8008E0426 /* Tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E6B34528805AC8008E0426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E6B34728805AC8008E0426 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59E6B34928805AC8008E0426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59E6B34C28805AC8008E0426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59E6B34E28805AC8008E0426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E6B35128805AC8008E0426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E6B35328805AC8008E0426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E6B35C28805C30008E0426 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		59E6B35E28805DEA008E0426 /* TablaCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaCarroController.swift; sourceTree = "<group>"; };
+		59E6B360288062F6008E0426 /* CarroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarroCell.swift; sourceTree = "<group>"; };
+		59E6B36428807A4D008E0426 /* TablaMusicaControlletTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaMusicaControlletTableViewController.swift; sourceTree = "<group>"; };
+		59E6B36628807AFF008E0426 /* Cancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+		59E6B36828807ECB008E0426 /* CancionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionCell.swift; sourceTree = "<group>"; };
+		59E6B36E28808A8C008E0426 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
+		59E6B3712880ADF0008E0426 /* TableDetalleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDetalleController.swift; sourceTree = "<group>"; };
+		59E6B3732880AF37008E0426 /* CeldaDetalleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaDetalleController.swift; sourceTree = "<group>"; };
+		59E6B3752880AF7C008E0426 /* DetalleCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCarroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,56 @@
 		59E6B34428805AC8008E0426 /* Tabla */ = {
 			isa = PBXGroup;
 			children = (
+				59E6B3702880AD5A008E0426 /* Detalle */,
+				59E6B35B28805B42008E0426 /* Controller */,
+				59E6B35A28805B2D008E0426 /* View */,
+				59E6B35928805B1C008E0426 /* Model */,
 				59E6B34528805AC8008E0426 /* AppDelegate.swift */,
 				59E6B34728805AC8008E0426 /* SceneDelegate.swift */,
-				59E6B34928805AC8008E0426 /* ViewController.swift */,
-				59E6B34B28805AC8008E0426 /* Main.storyboard */,
 				59E6B34E28805AC8008E0426 /* Assets.xcassets */,
 				59E6B35028805AC8008E0426 /* LaunchScreen.storyboard */,
 				59E6B35328805AC8008E0426 /* Info.plist */,
+				59E6B36E28808A8C008E0426 /* Main2.storyboard */,
 			);
 			path = Tabla;
+			sourceTree = "<group>";
+		};
+		59E6B35928805B1C008E0426 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59E6B35C28805C30008E0426 /* Carro.swift */,
+				59E6B36628807AFF008E0426 /* Cancion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59E6B35A28805B2D008E0426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59E6B34B28805AC8008E0426 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59E6B35B28805B42008E0426 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59E6B35E28805DEA008E0426 /* TablaCarroController.swift */,
+				59E6B360288062F6008E0426 /* CarroCell.swift */,
+				59E6B36428807A4D008E0426 /* TablaMusicaControlletTableViewController.swift */,
+				59E6B36828807ECB008E0426 /* CancionCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59E6B3702880AD5A008E0426 /* Detalle */ = {
+			isa = PBXGroup;
+			children = (
+				59E6B3712880ADF0008E0426 /* TableDetalleController.swift */,
+				59E6B3732880AF37008E0426 /* CeldaDetalleController.swift */,
+				59E6B3752880AF7C008E0426 /* DetalleCarroController.swift */,
+			);
+			path = Detalle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +186,7 @@
 			files = (
 				59E6B35228805AC8008E0426 /* LaunchScreen.storyboard in Resources */,
 				59E6B34F28805AC8008E0426 /* Assets.xcassets in Resources */,
+				59E6B36F28808A8C008E0426 /* Main2.storyboard in Resources */,
 				59E6B34D28805AC8008E0426 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59E6B34A28805AC8008E0426 /* ViewController.swift in Sources */,
+				59E6B35F28805DEA008E0426 /* TablaCarroController.swift in Sources */,
 				59E6B34628805AC8008E0426 /* AppDelegate.swift in Sources */,
+				59E6B36528807A4D008E0426 /* TablaMusicaControlletTableViewController.swift in Sources */,
+				59E6B35D28805C30008E0426 /* Carro.swift in Sources */,
+				59E6B3762880AF7C008E0426 /* DetalleCarroController.swift in Sources */,
+				59E6B361288062F6008E0426 /* CarroCell.swift in Sources */,
+				59E6B3742880AF37008E0426 /* CeldaDetalleController.swift in Sources */,
 				59E6B34828805AC8008E0426 /* SceneDelegate.swift in Sources */,
+				59E6B3722880ADF0008E0426 /* TableDetalleController.swift in Sources */,
+				59E6B36728807AFF008E0426 /* Cancion.swift in Sources */,
+				59E6B36928807ECB008E0426 /* CancionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +359,7 @@
 				INFOPLIST_FILE = Tabla/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main2;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +386,7 @@
 				INFOPLIST_FILE = Tabla/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main2;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
